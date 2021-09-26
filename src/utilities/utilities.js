@@ -6,11 +6,8 @@ const formatTime = (time) => {
   const hour = Math.trunc(time);
   const min = Math.floor((time - hour) * 60);
   if (min > 5) {
-    return `${hour} hour ${min} min read`;
+    return `${hour} h ${min} min read`;
   }
-  return `${hour} hour read`;
+  return `${hour} h read`;
 };
-const utilities = {
-  formatTime,
-};
-export default utilities;
+export default formatTime;

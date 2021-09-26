@@ -1,11 +1,11 @@
 import React from 'react';
 import Unlocked from '../Unlocked/Unlocked';
 
-const Checkout = () => {
+const Checkout = (props) => {
   return (
     <div>
-      <div className="pl-10 w-1/4 flex">
-        <div className="h-full flex flex-col bg-white shadow-xl">
+      <div className="pl-10 sticky top-0 w-96 max-h-screen flex">
+        <div className="flex flex-col bg-white shadow-xl">
           <div className="flex-1 py-6  px-4 sm:px-6">
             <div className="flex items-center justify-between">
               <h2
@@ -27,14 +27,13 @@ const Checkout = () => {
               Shipping and taxes calculated at checkout.
             </p>
           </div>
-
-          <div className="mt-3">
+          {/* unlocked concepts */}
+          <div className="mt-3 overflow-y-scroll">
             <div className="flow-root">
               <ul className="-my-6 divide-y divide-gray-200">
-                <Unlocked />
-                <Unlocked />
-                <Unlocked />
-                <Unlocked />
+                {props.unlocked.map((unlock) => (
+                  <Unlocked key={unlock.id} unlock={unlock} />
+                ))}
               </ul>
             </div>
           </div>

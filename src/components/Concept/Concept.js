@@ -1,10 +1,9 @@
-import utilities from '../../utilities/utilities';
+import formatTime from '../../utilities/utilities';
 import Tag from '../Tag/Tag.js';
 
-console.log(utilities);
 const Concept = (props) => {
   // img
-  const { name, description, rating, tag, price } = props.concept;
+  const { name, description, rating, tag, price, read_time } = props.concept;
   return (
     <div className="w-80 flex flex-wrap rounded-2xl lg:rounded-lg shadow-2xl border-2">
       <img
@@ -96,7 +95,7 @@ const Concept = (props) => {
         {/* price and read time */}
         <div className="flex justify-between items-center">
           <Tag tagName={tag} />
-          <p>15 minute read</p>
+          <p>{formatTime(read_time)}</p>
         </div>
 
         {/* price */}
@@ -104,7 +103,10 @@ const Concept = (props) => {
           <span className="title-font font-medium text-2xl text-gray-900">
             ${price.toFixed(2)}
           </span>
-          <button className="flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+          <button
+            onClick={() => props.handleUnlocked(props.concept)}
+            className="flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+          >
             unlock
           </button>
         </div>

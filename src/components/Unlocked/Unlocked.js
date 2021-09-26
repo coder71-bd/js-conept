@@ -1,7 +1,8 @@
 import React from 'react';
 import Tag from '../Tag/Tag';
 
-const Unlocked = () => {
+const Unlocked = (props) => {
+  const { name, price, tag } = props.unlock;
   return (
     <li className="border py-6 mx-1 px-2 flex">
       <div className="flex-shrink-0 w-24 h-24 border border-gray-200 rounded-md overflow-hidden">
@@ -15,14 +16,12 @@ const Unlocked = () => {
       <div className="ml-4 flex-1 flex flex-col">
         <div>
           <div className="flex justify-between text-base font-medium text-gray-900">
-            <h3>
-              <a href="./">Throwback Hip Bag</a>
-            </h3>
-            <p className="ml-4">$90.00</p>
+            <h3>{name}</h3>
+            <p className="ml-4">${price}</p>
           </div>
         </div>
         <div className="flex-1 flex items-center pt-3 justify-between text-sm">
-          <Tag tagName="beginner" />
+          <Tag tagName={tag} />
           <button
             type="button"
             className="ml-3 font-medium bg-red-500 hover:bg-red-700 text-white p-2 rounded-lg "
