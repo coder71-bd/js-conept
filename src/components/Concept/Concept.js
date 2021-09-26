@@ -26,7 +26,7 @@ const Concept = (props) => {
       rating += 10;
     }
 
-    for (i = 0; i < rating; i++) {
+    for (i; i < rating; i++) {
       element = (
         <FontAwesomeIcon
           key={i}

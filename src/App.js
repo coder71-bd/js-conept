@@ -30,7 +30,7 @@ function App() {
       <Header />
 
       <main className="flex justify-evenly mt-10">
-        <div className="flex flex-wrap justify-evenly">
+        <div className="flex flex-wrap justify-evenly md:space-y-4">
           {concepts.map((concept) => (
             <Concept
               key={concept.id}

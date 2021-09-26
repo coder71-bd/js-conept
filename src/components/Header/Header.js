@@ -11,7 +11,7 @@ const Header = () => {
             <div className="flex items-center">
               {/* website logo */}
               <div className="flex-shrink-0">
-                <span class="border p-4 flex items-center w-32 justify-center text-lg font-bold text-blue-900 bg-red-400 rounded-2xl">
+                <span className="border p-2 flex items-center w-32 justify-center text-lg font-bold text-blue-900 bg-red-400 rounded-2xl">
                   JS Concept
                 </span>
               </div>
@@ -178,7 +178,7 @@ const Header = () => {
       </section>
 
       {/* search */}
-      <section className="flex items-center border-2 p-1 border-gray-200 sm:w-3/4 mx-2 sm:mx-auto rounded-xl md:shadow-2xl shadow-lg">
+      <section className="flex items-center border-2 p-1 border-gray-200 sm:w-3/4 mx-2 mt-3 sm:mx-auto rounded-xl md:shadow-2xl shadow-lg">
         <input
           className="w-full pl-4 pr-2 text-2xl outline-none"
           type="search"
