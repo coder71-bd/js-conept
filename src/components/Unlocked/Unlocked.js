@@ -22,7 +22,7 @@ const Unlocked = () => {
           </div>
         </div>
         <div className="flex-1 flex items-center pt-3 justify-between text-sm">
-          <Tag />
+          <Tag tagName="beginner" />
           <button
             type="button"
             className="ml-3 font-medium bg-red-500 hover:bg-red-700 text-white p-2 rounded-lg "

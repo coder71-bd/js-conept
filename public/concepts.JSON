@@ -1,0 +1,302 @@
+[
+  {
+    "id": "9069837242",
+    "name": "Introduction to Javascript",
+    "description": "We'll start by setting up our envirounment to run our Javascript code. First we'll install a code editor called vscode.",
+    "img": "http://dummyimage.com/195x100.png/cc0000/ffffff",
+    "rating": 4,
+    "tag": "beginner",
+    "read_time": 108,
+    "price": 100
+  },
+  {
+    "id": "3066995259",
+    "name": "Array and its uses in JS",
+    "description": "Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations.",
+    "img": "http://dummyimage.com/178x100.png/dddddd/000000",
+    "rating": 5,
+    "tag": "beginner",
+    "read_time": 93,
+    "price": 30
+  },
+  {
+    "id": "9383764945",
+    "name": "How Javascript works?",
+    "description": "Javascript is a single threaded, multi-paradigm, just in time compiled, prototype-based object-oriented programming language.",
+    "img": "http://dummyimage.com/152x100.png/dddddd/000000",
+    "rating": 3,
+    "tag": "advanced",
+    "read_time": 127,
+    "price": 80
+  },
+  {
+    "id": "3860479660",
+    "name": "Objects in depth",
+    "description": "If you want to master Javascript, then clear concept of Objects is a must. A javaScript object is an entity having properties and method.",
+    "img": "http://dummyimage.com/217x100.png/dddddd/000000",
+    "rating": 5,
+    "tag": "intermediate",
+    "read_time": 129,
+    "price": 100
+  },
+  {
+    "id": "2638552992",
+    "name": "Loops in JS",
+    "description": "Loops are handy if you want to do some repetitive task. They will continue to execute the same code again and again until the given condition become false.",
+    "img": "http://dummyimage.com/170x100.png/5fa2dd/ffffff",
+    "rating": 2,
+    "tag": "beginner",
+    "read_time": 73,
+    "price": 20
+  },
+  {
+    "id": "2150906678",
+    "name": "Data types",
+    "description": "Javascript is a dynamically typed language. Dynamically typed means there exist data types but variables are not bound to any of them. There are eight basic data types in JS.",
+    "img": "http://dummyimage.com/105x100.png/ff4444/ffffff",
+    "rating": 5,
+    "tag": "intermediate",
+    "read_time": 150,
+    "price": 120
+  },
+  {
+    "id": "1669042189",
+    "name": "Conditional branching",
+    "description": "Conditional branching is doing some operations based on certain condition. We can do them with if, else...if and switch statement.",
+    "img": "http://dummyimage.com/159x100.png/dddddd/000000",
+    "rating": 5,
+    "tag": "beginner",
+    "read_time": 30,
+    "price": 75
+  },
+  {
+    "id": "6261932395",
+    "name": "Javascript operators",
+    "description": "We'll start by exploring comparison operators. we can compare between two values with the comparison Operators. For example, we can determine if both values are equal with the equality(==) operator.",
+    "img": "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+    "rating": 2,
+    "tag": "beginner",
+    "read_time": 50,
+    "price": 61
+  },
+  {
+    "id": "1887802738",
+    "name": "Functions in depth",
+    "description": "Functions are the main “building blocks” of the program. They allow the code to be called many times without repetition. To create a function we can use function expression or function declaration.",
+    "img": "http://dummyimage.com/116x100.png/dddddd/000000",
+    "rating": 5,
+    "tag": "intermediate",
+    "read_time": 97,
+    "price": 65
+  },
+  {
+    "id": "1714971317",
+    "name": "Coding Style",
+    "description": "There are some good practices and bad practices in Javascript while writing code. But there are no strict rules.",
+    "img": "http://dummyimage.com/102x100.png/ff4444/ffffff",
+    "rating": 3,
+    "tag": "beginner",
+    "read_time": 15,
+    "price": 50
+  },
+  {
+    "id": "8622606430",
+    "name": "the notorious 'this'",
+    "description": "'this' in javascript refers to the current lexical environment where the code is running. That's why its value is not the same all time. Outside of function, it refers to the global window object in the browser.",
+    "img": "http://dummyimage.com/111x100.png/dddddd/000000",
+    "rating": 4,
+    "tag": "advanced",
+    "read_time": 80,
+    "price": 120
+  },
+  {
+    "id": "0543180522",
+    "name": "primitive vs reference(objects)",
+    "description": "Some primitives are string, boolean, number, etc. There are some big differences between Primitives and objects.",
+    "img": "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
+    "rating": 4,
+    "tag": "intermediate",
+    "read_time": 51,
+    "price": 88
+  },
+  {
+    "id": "0226328562",
+    "name": "Map and WeakMap",
+    "description": "Map is a collection of keyed data items, just like an Object",
+    "img": "http://dummyimage.com/143x100.png/5fa2dd/ffffff",
+    "rating": 5,
+    "tag": "advanced",
+    "read_time": 40,
+    "price": 20
+  },
+  {
+    "id": "9474526559",
+    "name": "Set and WeakSet",
+    "description": "A Set is a special type collection – “set of values” (without keys), where each value may occur only once.",
+    "img": "http://dummyimage.com/158x100.png/dddddd/000000",
+    "rating": 3,
+    "tag": "advanced",
+    "read_time": 40,
+    "price": 59
+  },
+  {
+    "id": "6566519157",
+    "name": "Recursion explained with example",
+    "description": "Recursion is a programming pattern that is useful in situations when a task can be naturally split into several tasks of the same kind, but simpler.",
+    "img": "http://dummyimage.com/234x100.png/cc0000/ffffff",
+    "rating": 4,
+    "tag": "advanced",
+    "read_time": 82,
+    "price": 55
+  },
+  {
+    "id": "6632950027",
+    "name": "var vs let vs const",
+    "description": "Before es6 was introduced we were using only the var to declare variables. But now we use let and const to declare variables. Let's start exploring what's the difference between them.",
+    "img": "http://dummyimage.com/128x100.png/5fa2dd/ffffff",
+    "rating": 3,
+    "tag": "beginner",
+    "read_time": 60,
+    "price": 76
+  },
+  {
+    "id": "4681728772",
+    "name": "Arrow functions",
+    "description": "ES6 introduced us to a new way of writing function expression, which is called the arrow function.",
+    "img": "http://dummyimage.com/228x100.png/dddddd/000000",
+    "rating": 2,
+    "tag": "intermediate",
+    "read_time": 30,
+    "price": 74
+  },
+  {
+    "id": "7034892512",
+    "name": "Prototypes and Inheritance",
+    "description": "In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”",
+    "img": "http://dummyimage.com/170x100.png/cc0000/ffffff",
+    "rating": 5,
+    "tag": "advanced",
+    "read_time": 96,
+    "price": 220
+  },
+  {
+    "id": "8271723766",
+    "name": "introduction to Classes",
+    "description": "To create many objects of the same kind and extend the object to make some other objects, JS gives us a syntactic sugar named class. It helps us to write our program in an object-oriented way.",
+    "img": "http://dummyimage.com/161x100.png/5fa2dd/ffffff",
+    "rating": 3,
+    "tag": "advanced",
+    "read_time": 120,
+    "price": 170
+  },
+  {
+    "id": "2757112538",
+    "name": "Object Oriented Programming",
+    "description": "The four fundamental building blocks of object-oriented programming is 'inheritance', 'polymorphism', 'abstraction', and 'encapsulation'.",
+    "img": "http://dummyimage.com/228x100.png/cc0000/ffffff",
+    "rating": 5,
+    "tag": "advanced",
+    "read_time": 180,
+    "price": 500
+  },
+  {
+    "id": "0405333897",
+    "name": "Error handling",
+    "description": "Error handling is a must for programmers as we will always face some kind of errors while writing code. They may occur because of our mistakes, bad server response, or unexpected user inputs.",
+    "img": "http://dummyimage.com/219x100.png/ff4444/ffffff",
+    "rating": 5,
+    "tag": "intermediate",
+    "read_time": 52,
+    "price": 92
+  },
+  {
+    "id": "1971155853",
+    "name": "Promises in depth",
+    "description": "We can create promises with the Promise constructor. It takes two arguments 'resolve' and 'reject' which are callbacks provided by JavaScript itself.",
+    "img": "http://dummyimage.com/222x100.png/cc0000/ffffff",
+    "rating": 5,
+    "tag": "advanced",
+    "read_time": 160,
+    "price": 56
+  },
+  {
+    "id": "7314501432",
+    "name": "Export and import",
+    "description": "We can share functions with other files using import and export.",
+    "img": "http://dummyimage.com/137x100.png/5fa2dd/ffffff",
+    "rating": 3,
+    "tag": "intermediate",
+    "read_time": 68,
+    "price": 93
+  },
+  {
+    "id": "7222676007",
+    "name": "Scopes in JS",
+    "description": "Scope is a fundamental concept of javascript. There are mainly two kinds of scope in js. they are global scope and local scope.",
+    "img": "http://dummyimage.com/138x100.png/dddddd/000000",
+    "rating": 4,
+    "tag": "beginner",
+    "read_time": 69,
+    "price": 37
+  },
+  {
+    "id": "1365801667",
+    "name": "Hoisting",
+    "description": "Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope.",
+    "img": "http://dummyimage.com/229x100.png/dddddd/000000",
+    "rating": 3,
+    "tag": "intermediate",
+    "read_time": 71,
+    "price": 50
+  },
+  {
+    "id": "7811779463",
+    "name": "Currying",
+    "description": "Currying is a transformation of functions that translates a function from callable as f(a, b, c) into callable as f(a)(b)(c).",
+    "img": "http://dummyimage.com/238x100.png/5fa2dd/ffffff",
+    "rating": 3,
+    "tag": "advanced",
+    "read_time": 80,
+    "price": 160
+  },
+  {
+    "id": "1337869155",
+    "name": "Document Object Model or DOM",
+    "description": "The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.",
+    "img": "http://dummyimage.com/117x100.png/ff4444/ffffff",
+    "rating": 2,
+    "tag": "intermediate",
+    "read_time": 172,
+    "price": 27
+  },
+  {
+    "id": "9861758305",
+    "name": "An introduction to browser events",
+    "description": "There are many events available in browser. Some of them are click, mouseover, keyup etc.",
+    "img": "http://dummyimage.com/215x100.png/dddddd/000000",
+    "rating": 1,
+    "tag": "intermediate",
+    "read_time": 132,
+    "price": 74
+  },
+  {
+    "id": "1452226040",
+    "name": "Fetch",
+    "description": "The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.",
+    "img": "http://dummyimage.com/122x100.png/cc0000/ffffff",
+    "rating": 2,
+    "tag": "advanced",
+    "read_time": 79,
+    "price": 44
+  },
+  {
+    "id": "5630018132",
+    "name": "Regular Expressions",
+    "description": "A regular expression is a sequence of characters that forms a search pattern. The search pattern can be used for text search and text replace operations.",
+    "img": "http://dummyimage.com/194x100.png/dddddd/000000",
+    "rating": 5,
+    "tag": "advanced",
+    "read_time": 51,
+    "price": 190
+  }
+]

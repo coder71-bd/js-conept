@@ -1,19 +1,19 @@
 import React from 'react';
 
-const Tag = () => {
-  const tagName = 'beginner';
+const Tag = (props) => {
+  const { tagName } = props;
   const beginnerTag = (
-    <div className="border border-green-600 px-3 font-bold text-green-600 hover:bg-green-600 hover:text-white py-1 cursor-pointer rounded-full">
+    <div className="border border-green-600 px-3 italic text-green-600 hover:bg-green-600 hover:text-white py-1 cursor-pointer rounded-full">
       Beginner
     </div>
   );
   const intermediateTag = (
-    <div className="border border-yellow-600 px-3 font-bold text-yellow-600 hover:bg-yellow-600 hover:text-white py-1 cursor-pointer rounded-full">
+    <div className="border border-blue-600 px-3 italic text-blue-600 hover:bg-blue-600 hover:text-white py-1 cursor-pointer rounded-full">
       Intermediate
     </div>
   );
   const advancedTag = (
-    <div className="border border-pink-600 px-3 font-bold text-pink-600 hover:bg-pink-600 hover:text-white py-1 cursor-pointer rounded-full">
+    <div className="border border-red-600 px-3 italic text-red-600 hover:bg-red-600 hover:text-white py-1 cursor-pointer rounded-full">
       Advanced
     </div>
   );
