@@ -6,7 +6,8 @@ import Header from './components/Header/Header';
 function App() {
   const [concepts, setConcepts] = useState([]);
   const [unlocked, setUnlocked] = useState([]);
-  // const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
+
   useEffect(() => {
     fetch('./concepts.JSON')
       .then((res) => res.json())
@@ -21,6 +22,7 @@ function App() {
     }
     const newUnlocked = [...unlocked, concept];
     setUnlocked(newUnlocked);
+    setCount(count + 1);
   };
 
   return (
@@ -39,7 +41,7 @@ function App() {
         </div>
 
         {/* checkout cart */}
-        <Checkout unlocked={unlocked} />
+        <Checkout unlocked={unlocked} count={count} />
       </main>
     </div>
   );

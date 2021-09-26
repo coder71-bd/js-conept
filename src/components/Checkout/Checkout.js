@@ -10,6 +10,7 @@ const Checkout = (props) => {
     <div>
       <div className="pl-10 sticky top-0 w-96 max-h-screen flex">
         <div className="flex flex-col bg-white shadow-xl">
+          {/* total unlocked concepts */}
           <div className="flex-1 py-6  px-4 sm:px-6">
             <div className="flex items-center justify-between">
               <h2
@@ -22,12 +23,14 @@ const Checkout = (props) => {
             </div>
           </div>
 
+          {/* total price */}
           <div className="border-t border-gray-200 py-6 px-4 sm:px-6">
             <div className="flex justify-between text-base font-medium text-gray-900">
               <p>Total Price</p>
               <p>${calcTotalPrice.toFixed(2)}</p>
             </div>
           </div>
+
           {/* unlocked concepts */}
           <div className="mt-3 overflow-y-scroll">
             <div className="flow-root">
@@ -39,6 +42,7 @@ const Checkout = (props) => {
             </div>
           </div>
 
+          {/* checkout button */}
           <div className="mt-6">
             <a
               href="./"
