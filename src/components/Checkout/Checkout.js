@@ -2,6 +2,10 @@ import React from 'react';
 import Unlocked from '../Unlocked/Unlocked';
 
 const Checkout = (props) => {
+  const { count, unlocked } = props;
+
+  const calcTotalPrice = unlocked.reduce((prev, curr) => prev + curr.price, 0);
+
   return (
     <div>
       <div className="pl-10 sticky top-0 w-96 max-h-screen flex">
@@ -14,18 +18,15 @@ const Checkout = (props) => {
               >
                 Total Unlocked Concepts:
               </h2>
-              <p>20</p>
+              <p>{count}</p>
             </div>
           </div>
 
           <div className="border-t border-gray-200 py-6 px-4 sm:px-6">
             <div className="flex justify-between text-base font-medium text-gray-900">
               <p>Total Price</p>
-              <p>$262.00</p>
+              <p>${calcTotalPrice.toFixed(2)}</p>
             </div>
-            <p className="mt-0.5 text-sm text-gray-500">
-              Shipping and taxes calculated at checkout.
-            </p>
           </div>
           {/* unlocked concepts */}
           <div className="mt-3 overflow-y-scroll">

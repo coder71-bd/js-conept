@@ -3,81 +3,89 @@
     "id": "9069837242",
     "name": "Introduction to Javascript",
     "description": "We'll start by setting up our envirounment to run our Javascript code. First we'll install a code editor called vscode.",
-    "img": "http://dummyimage.com/195x100.png/cc0000/ffffff",
+    "img": "https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736401_960_720.png",
     "rating": 4,
     "tag": "beginner",
     "read_time": 108,
-    "price": 100
+    "price": 100,
+    "ünlocked": false
   },
   {
     "id": "3066995259",
-    "name": "Array and its uses in JS",
+    "name": "Array and Array methods",
     "description": "Arrays are list-like objects whose prototype has methods to perform traversal and mutation operations.",
-    "img": "http://dummyimage.com/178x100.png/dddddd/000000",
+    "img": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn-media-1.freecodecamp.org%2Fimages%2Fw3CWlvnWqG5VEy6qupnAYvTqECGhPdj3P9Wu&imgrefurl=https%3A%2F%2Fwww.freecodecamp.org%2Fnews%2Fhttps-medium-com-gladchinda-hacks-for-creating-javascript-arrays-a1b80cb372b%2F&tbnid=3Jthx-fbJSF-pM&vet=12ahUKEwi59Kr08ZzzAhWlHCsKHYl-AKkQMygAegUIARC3AQ..i&docid=Upa1c7TJscXj6M&w=800&h=404&q=array%20in%20js&ved=2ahUKEwi59Kr08ZzzAhWlHCsKHYl-AKkQMygAegUIARC3AQ",
     "rating": 5,
     "tag": "beginner",
     "read_time": 93,
-    "price": 30
+    "price": 30,
+    "ünlocked": false
   },
   {
     "id": "9383764945",
     "name": "How Javascript works?",
     "description": "Javascript is a single threaded, multi-paradigm, just in time compiled, prototype-based object-oriented programming language.",
-    "img": "http://dummyimage.com/152x100.png/dddddd/000000",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--E8k00Unr--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.imgur.com/KuH2BIL.jpg",
     "rating": 3,
     "tag": "advanced",
     "read_time": 127,
-    "price": 80
+    "price": 80,
+    "ünlocked": false
   },
   {
     "id": "3860479660",
     "name": "Objects in depth",
     "description": "If you want to master Javascript, then clear concept of Objects is a must. A javaScript object is an entity having properties and method.",
-    "img": "http://dummyimage.com/217x100.png/dddddd/000000",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--rJeH0yGE--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/t52ni02srb8688lh3eh8.png",
     "rating": 5,
     "tag": "intermediate",
     "read_time": 129,
-    "price": 100
+    "price": 100,
+    "ünlocked": false
   },
   {
     "id": "2638552992",
     "name": "Loops in JS",
     "description": "Loops are handy if you want to do some repetitive task. They will continue to execute the same code again and again until the given condition become false.",
-    "img": "http://dummyimage.com/170x100.png/5fa2dd/ffffff",
+    "img": "https://www.javascripttutorial.net/wp-content/uploads/2020/01/JavaScript-for-Loop.png",
     "rating": 2,
     "tag": "beginner",
     "read_time": 73,
-    "price": 20
+    "price": 20,
+    "ünlocked": false
   },
   {
     "id": "2150906678",
     "name": "Data types",
     "description": "Javascript is a dynamically typed language. Dynamically typed means there exist data types but variables are not bound to any of them. There are eight basic data types in JS.",
-    "img": "http://dummyimage.com/105x100.png/ff4444/ffffff",
+    "img": "https://cdn.splessons.com/wp-content/uploads/2016/03/javascript-datatypes-01-splessons.jpg",
     "rating": 5,
     "tag": "intermediate",
     "read_time": 150,
-    "price": 120
+    "price": 120,
+    "unLocked": false
   },
   {
     "id": "1669042189",
     "name": "Conditional branching",
     "description": "Conditional branching is doing some operations based on certain condition. We can do them with if, else...if and switch statement.",
-    "img": "http://dummyimage.com/159x100.png/dddddd/000000",
+    "img": "https://owlbuddy.com/img/tutorial_images/Braching%20statements%20in%20PHP%20if-else%20statement%20in%20PHP.jpg",
     "rating": 5,
     "tag": "beginner",
     "read_time": 30,
-    "price": 75
+    "price": 75,
+    "unLocked": false
   },
   {
     "id": "6261932395",
     "name": "Javascript operators",
     "description": "We'll start by exploring comparison operators. we can compare between two values with the comparison Operators. For example, we can determine if both values are equal with the equality(==) operator.",
-    "img": "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+    "img": "https://simplesnippets.tech/wp-content/uploads/2018/10/operators-in-javascript-featured-image-1280x720.jpg",
     "rating": 2,
     "tag": "beginner",
     "read_time": 50,
-    "price": 61
+    "price": 61,
+    "unLocked": false
   },
   {
     "id": "1887802738",
@@ -87,216 +95,238 @@
     "rating": 5,
     "tag": "intermediate",
     "read_time": 97,
-    "price": 65
+    "price": 65,
+    "unLocked": false
   },
   {
     "id": "1714971317",
     "name": "Coding Style",
     "description": "There are some good practices and bad practices in Javascript while writing code. But there are no strict rules.",
-    "img": "http://dummyimage.com/102x100.png/ff4444/ffffff",
+    "img": "https://www.codeproject.com/KB/scripting/1130815/Function1-300x154.png",
     "rating": 3,
     "tag": "beginner",
     "read_time": 15,
-    "price": 50
+    "price": 50,
+    "unLocked": false
   },
   {
     "id": "8622606430",
     "name": "the notorious 'this'",
     "description": "'this' in javascript refers to the current lexical environment where the code is running. That's why its value is not the same all time. Outside of function, it refers to the global window object in the browser.",
-    "img": "http://dummyimage.com/111x100.png/dddddd/000000",
+    "img": "https://scotch-res.cloudinary.com/image/upload/w_auto,q_auto:good,f_auto/media/15139/dgahV0czTwWJuwa9RcTE_%E2%80%9CWhy%20%E2%80%98This%E2%80%99%20in%20JavaScript%E2%80%9D2x.png.jpg",
     "rating": 4,
     "tag": "advanced",
     "read_time": 80,
-    "price": 120
+    "price": 120,
+    "unLocked": false
   },
   {
     "id": "0543180522",
     "name": "primitive vs reference(objects)",
     "description": "Some primitives are string, boolean, number, etc. There are some big differences between Primitives and objects.",
-    "img": "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--ic3si3AF--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/7fywnll7ir2ndqegtjav.png",
     "rating": 4,
     "tag": "intermediate",
     "read_time": 51,
-    "price": 88
+    "price": 88,
+    "unLocked": false
   },
   {
     "id": "0226328562",
     "name": "Map and WeakMap",
     "description": "Map is a collection of keyed data items, just like an Object",
-    "img": "http://dummyimage.com/143x100.png/5fa2dd/ffffff",
+    "img": "https://i2.wp.com/ytimg.googleusercontent.com/vi/QYfZ_gXwxBs/hqdefault.jpg",
     "rating": 5,
     "tag": "advanced",
     "read_time": 40,
-    "price": 20
+    "price": 20,
+    "unLocked": false
   },
   {
     "id": "9474526559",
     "name": "Set and WeakSet",
     "description": "A Set is a special type collection – “set of values” (without keys), where each value may occur only once.",
-    "img": "http://dummyimage.com/158x100.png/dddddd/000000",
+    "img": "https://www.worldofitech.com/wp-content/uploads/2021/01/JavaScript-Set-and-WeakSet.png",
     "rating": 3,
     "tag": "advanced",
     "read_time": 40,
-    "price": 59
+    "price": 59,
+    "unLocked": false
   },
   {
     "id": "6566519157",
     "name": "Recursion explained with example",
     "description": "Recursion is a programming pattern that is useful in situations when a task can be naturally split into several tasks of the same kind, but simpler.",
-    "img": "http://dummyimage.com/234x100.png/cc0000/ffffff",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--KA7Ky3uR--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/226xc0p9pgtgadnin92j.jpeg",
     "rating": 4,
     "tag": "advanced",
     "read_time": 82,
-    "price": 55
+    "price": 55,
+    "unLocked": false
   },
   {
     "id": "6632950027",
     "name": "var vs let vs const",
     "description": "Before es6 was introduced we were using only the var to declare variables. But now we use let and const to declare variables. Let's start exploring what's the difference between them.",
-    "img": "http://dummyimage.com/128x100.png/5fa2dd/ffffff",
+    "img": "https://ohyoufrancybruh.com/static/9557df57adba22264125fcd777fdd539/ead9f/var-let-const.png",
     "rating": 3,
     "tag": "beginner",
     "read_time": 60,
-    "price": 76
+    "price": 76,
+    "unLocked": false
   },
   {
     "id": "4681728772",
     "name": "Arrow functions",
     "description": "ES6 introduced us to a new way of writing function expression, which is called the arrow function.",
-    "img": "http://dummyimage.com/228x100.png/dddddd/000000",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--vlqQ-UWU--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/rhg7nntibsuufeibmt4u.png",
     "rating": 2,
     "tag": "intermediate",
     "read_time": 30,
-    "price": 74
+    "price": 74,
+    "unLocked": false
   },
   {
     "id": "7034892512",
     "name": "Prototypes and Inheritance",
     "description": "In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called “a prototype”",
-    "img": "http://dummyimage.com/170x100.png/cc0000/ffffff",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--9b17TTej--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/yjxz6x93jaxk4wgmpnw5.png",
     "rating": 5,
     "tag": "advanced",
     "read_time": 96,
-    "price": 220
+    "price": 220,
+    "unLocked": false
   },
   {
     "id": "8271723766",
     "name": "introduction to Classes",
     "description": "To create many objects of the same kind and extend the object to make some other objects, JS gives us a syntactic sugar named class. It helps us to write our program in an object-oriented way.",
-    "img": "http://dummyimage.com/161x100.png/5fa2dd/ffffff",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--XL3udtnk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/3lfl3ape3p600vel1iun.png",
     "rating": 3,
     "tag": "advanced",
     "read_time": 120,
-    "price": 170
+    "price": 170,
+    "unLocked": false
   },
   {
     "id": "2757112538",
     "name": "Object Oriented Programming",
     "description": "The four fundamental building blocks of object-oriented programming is 'inheritance', 'polymorphism', 'abstraction', and 'encapsulation'.",
-    "img": "http://dummyimage.com/228x100.png/cc0000/ffffff",
+    "img": "https://media.geeksforgeeks.org/wp-content/uploads/OOPs-Concepts.jpg",
     "rating": 5,
     "tag": "advanced",
     "read_time": 180,
-    "price": 500
+    "price": 500,
+    "unLocked": false
   },
   {
     "id": "0405333897",
     "name": "Error handling",
     "description": "Error handling is a must for programmers as we will always face some kind of errors while writing code. They may occur because of our mistakes, bad server response, or unexpected user inputs.",
-    "img": "http://dummyimage.com/219x100.png/ff4444/ffffff",
+    "img": "https://scotch-res.cloudinary.com/image/upload/w_auto,q_auto:good,f_auto/media/10/PioiQOwVRUiKUUtNL7Dj_Proper_Error_Handling_in_JavaScript2x%201.png.jpg",
     "rating": 5,
     "tag": "intermediate",
     "read_time": 52,
-    "price": 92
+    "price": 92,
+    "unLocked": false
   },
   {
     "id": "1971155853",
     "name": "Promises in depth",
     "description": "We can create promises with the Promise constructor. It takes two arguments 'resolve' and 'reject' which are callbacks provided by JavaScript itself.",
-    "img": "http://dummyimage.com/222x100.png/cc0000/ffffff",
+    "img": "https://i.morioh.com/2019/10/22/b646b201fb31.jpg",
     "rating": 5,
     "tag": "advanced",
     "read_time": 160,
-    "price": 56
+    "price": 56,
+    "unLocked": false
   },
   {
     "id": "7314501432",
     "name": "Export and import",
     "description": "We can share functions with other files using import and export.",
-    "img": "http://dummyimage.com/137x100.png/5fa2dd/ffffff",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--cNRtjqWj--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/d2azpr9m5c01k999abmy.png",
     "rating": 3,
     "tag": "intermediate",
     "read_time": 68,
-    "price": 93
+    "price": 93,
+    "unLocked": false
   },
   {
     "id": "7222676007",
     "name": "Scopes in JS",
     "description": "Scope is a fundamental concept of javascript. There are mainly two kinds of scope in js. they are global scope and local scope.",
-    "img": "http://dummyimage.com/138x100.png/dddddd/000000",
+    "img": "https://ringojs.org/documentation/images/scriptscope.png",
     "rating": 4,
     "tag": "beginner",
     "read_time": 69,
-    "price": 37
+    "price": 37,
+    "unLocked": false
   },
   {
     "id": "1365801667",
     "name": "Hoisting",
     "description": "Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope.",
-    "img": "http://dummyimage.com/229x100.png/dddddd/000000",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--Ceq9cg87--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/kaf11wh85tkhfv1338b4.png",
     "rating": 3,
     "tag": "intermediate",
     "read_time": 71,
-    "price": 50
+    "price": 50,
+    "unLocked": false
   },
   {
     "id": "7811779463",
     "name": "Currying",
     "description": "Currying is a transformation of functions that translates a function from callable as f(a, b, c) into callable as f(a)(b)(c).",
-    "img": "http://dummyimage.com/238x100.png/5fa2dd/ffffff",
+    "img": "https://res.cloudinary.com/practicaldev/image/fetch/s--svcPZFaV--/c_imagga_scale,f_auto,fl_progressive,h_720,q_auto,w_1280/https://dev-to-uploads.s3.amazonaws.com/i/viplwlivvz3xxahdycac.png",
     "rating": 3,
     "tag": "advanced",
     "read_time": 80,
-    "price": 160
+    "price": 160,
+    "unLocked": false
   },
   {
     "id": "1337869155",
     "name": "Document Object Model or DOM",
     "description": "The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.",
-    "img": "http://dummyimage.com/117x100.png/ff4444/ffffff",
+    "img": "https://simplesnippets.tech/wp-content/uploads/2018/10/what-is-document-object-model-in-JS-featured-image-1280x720.jpg",
     "rating": 2,
     "tag": "intermediate",
     "read_time": 172,
-    "price": 27
+    "price": 27,
+    "unLocked": false
   },
   {
     "id": "9861758305",
     "name": "An introduction to browser events",
     "description": "There are many events available in browser. Some of them are click, mouseover, keyup etc.",
-    "img": "http://dummyimage.com/215x100.png/dddddd/000000",
+    "img": "http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/09/Events-in-JavaScript.jpg",
     "rating": 1,
     "tag": "intermediate",
     "read_time": 132,
-    "price": 74
+    "price": 74,
+    "unLocked": false
   },
   {
     "id": "1452226040",
     "name": "Fetch",
     "description": "The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.",
-    "img": "http://dummyimage.com/122x100.png/cc0000/ffffff",
+    "img": "https://i.morioh.com/200627/b67758c9.jpg",
     "rating": 2,
     "tag": "advanced",
     "read_time": 79,
-    "price": 44
+    "price": 44,
+    "unLocked": false
   },
   {
     "id": "5630018132",
     "name": "Regular Expressions",
     "description": "A regular expression is a sequence of characters that forms a search pattern. The search pattern can be used for text search and text replace operations.",
-    "img": "http://dummyimage.com/194x100.png/dddddd/000000",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxYArikXMofcd7p7ccL1Xt7IPWJTdUf2Drpw&usqp=CAU",
     "rating": 5,
     "tag": "advanced",
     "read_time": 51,
-    "price": 190
+    "price": 190,
+    "unLocked": false
   }
 ]

@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 function App() {
   const [concepts, setConcepts] = useState([]);
   const [unlocked, setUnlocked] = useState([]);
+  // const [count, setCount] = useState(0);
   useEffect(() => {
     fetch('./concepts.JSON')
       .then((res) => res.json())
@@ -14,8 +15,12 @@ function App() {
 
   // handle adding unlocked concept in cart
   const handleUnlocked = (concept) => {
-    const newUnlockedArr = [...unlocked, concept];
-    setUnlocked(newUnlockedArr);
+    let isAlreadyUnlocked = unlocked.find((unlock) => unlock.id === concept.id);
+    if (isAlreadyUnlocked) {
+      return;
+    }
+    const newUnlocked = [...unlocked, concept];
+    setUnlocked(newUnlocked);
   };
 
   return (

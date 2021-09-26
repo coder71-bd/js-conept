@@ -3,7 +3,8 @@ import Tag from '../Tag/Tag.js';
 
 const Concept = (props) => {
   // img
-  const { name, description, rating, tag, price, read_time } = props.concept;
+  const { name, description, rating, tag, price, read_time, unLocked } =
+    props.concept;
   return (
     <div className="w-80 flex flex-wrap rounded-2xl lg:rounded-lg shadow-2xl border-2">
       <img
@@ -106,6 +107,7 @@ const Concept = (props) => {
           <button
             onClick={() => props.handleUnlocked(props.concept)}
             className="flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
+            disabled={unLocked}
           >
             unlock
           </button>
