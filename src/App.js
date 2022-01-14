@@ -12,7 +12,7 @@ function App() {
     fetch('./concepts.JSON')
       .then((res) => res.json())
       .then((data) => setConcepts(data));
-  });
+  }, []);
 
   // handle adding unlocked concept in cart
   const handleUnlocked = (concept) => {

@@ -11,7 +11,7 @@ const Header = () => {
             <div className="flex items-center">
               {/* website logo */}
               <div className="flex-shrink-0">
-                <span className="border p-2 flex items-center w-32 justify-center text-lg font-bold text-blue-900 bg-red-400 rounded-2xl">
+                <span className="p-2 flex items-center w-32 justify-center text-lg font-bold text-white bg-purple-600 rounded-2xl">
                   JS Concept
                 </span>
               </div>
@@ -21,7 +21,7 @@ const Header = () => {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <a
                     href="./"
-                    className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="bg-gray-900 text-white px-3 py-3 rounded-md text-sm font-medium"
                     aria-current="page"
                   >
                     Dashboard
@@ -29,28 +29,28 @@ const Header = () => {
 
                   <a
                     href="./"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm font-medium"
                   >
                     Code Playground
                   </a>
 
                   <a
                     href="./"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm font-medium"
                   >
                     Projects
                   </a>
 
                   <a
                     href="./"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm font-medium"
                   >
                     Carrers
                   </a>
 
                   <a
                     href="./"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-3 rounded-md text-sm font-medium"
                   >
                     About us
                   </a>
@@ -63,10 +63,9 @@ const Header = () => {
         {/* <!-- Mobile menu, show/hide based on menu state. --> */}
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
             <a
               href="./"
-              className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="bg-gray-900 text-white block px-3 py-3 rounded-md text-base font-medium"
               aria-current="page"
             >
               Dashboard
@@ -74,28 +73,28 @@ const Header = () => {
 
             <a
               href="./"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-3 rounded-md text-base font-medium"
             >
               Topics
             </a>
 
             <a
               href="./"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-3 rounded-md text-base font-medium"
             >
               Videos
             </a>
 
             <a
               href="./"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-3 rounded-md text-base font-medium"
             >
               Projects
             </a>
 
             <a
               href="./"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-3 rounded-md text-base font-medium"
             >
               About us
             </a>
