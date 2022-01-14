@@ -3,16 +3,16 @@ import coding from '../../images/coding.png';
 
 const Banner = () => {
   return (
-    <div>
+    <>
       {/* website info section */}
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font mt-3">
         <div className="container mx-auto flex px-5  md:flex-row flex-col items-center">
           {/* info */}
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl font-bold text-gray-900">
               JS Concept
             </h1>
-            <small className="ml-12 text-blue-900 mb-6">
+            <small className="pl-12 text-blue-900 mb-6">
               -Next-generation learning platform
             </small>
             <p className="mb-8 leading-relaxed">
@@ -21,9 +21,6 @@ const Banner = () => {
               We won't let you go until you become an expert on unlocked
               subjects. Use the gem you've earned to unlock concepts.
             </p>
-            <h2 className="font-bold text-xl">
-              Total 30 concepts available. More coming soon.
-            </h2>
           </div>
 
           {/* brand image */}
@@ -54,7 +51,7 @@ const Banner = () => {
           </a>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
